@@ -1,0 +1,14 @@
+package eight;
+
+public class Main {
+	public static void main(String[] args) {
+		char ch = 'u';
+		
+		if(ch == 'a' || ch == 'e' || ch == 'o' || ch == 'u') {
+			System.out.println("Vowel");
+		}else {
+			System.out.println("Consonant");
+		}
+	}
+
+}
